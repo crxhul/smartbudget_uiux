@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SmartBudget Prototype</title>
+<style>
+body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; background:#f5f7fa; }
+.container { max-width: 420px; margin: 24px auto; background: #fff; border-radius: 24px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); overflow:hidden; }
+.header { padding: 16px 20px; border-bottom:1px solid #eef2f7; font-weight:700; }
+.screen { width:100%; display:none; }
+.screen.active { display:block; }
+.nav { display:flex; gap:8px; padding:12px; justify-content:center; background:#fff; border-top:1px solid #eef2f7; position:sticky; bottom:0; }
+.nav button { padding:10px 14px; border-radius:12px; border:1px solid #e4e7ee; background:#f8fafc; cursor:pointer; }
+.mock { width:100%; height:auto; display:block; }
+.badge { text-align:center; padding:12px; font-size:14px; color:#334155; }
+</style>
+</head>
+<body>
+<div class="badge">SmartBudget – Click buttons to switch screens</div>
+<div class="container">
+<div class="header">SmartBudget Prototype</div>
+<div class="screen active"><img class="mock" src="01_Onboarding.png" /></div>
+<div class="screen"><img class="mock" src="02_Dashboard.png" /></div>
+<div class="screen"><img class="mock" src="03_AddExpense.png" /></div>
+<div class="screen"><img class="mock" src="04_Reports.png" /></div>
+<div class="screen"><img class="mock" src="05_Profile.png" /></div>
+<div class="nav">
+<button onclick="show(0)">Onboarding</button>
+<button onclick="show(1)">Dashboard</button>
+<button onclick="show(2)">Add</button>
+<button onclick="show(3)">Reports</button>
+<button onclick="show(4)">Profile</button>
+</div>
+</div>
+<script>
+const screens = document.querySelectorAll('.screen');
+function show(i) { screens.forEach((s,idx)=> s.classList.toggle('active', idx===i)); }
+</script>
+</body>
+</html>
