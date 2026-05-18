@@ -23,12 +23,6 @@ It provides an intuitive onboarding flow, a clean dashboard, and interactive mod
 
 ---
 
-## 🚀 Demo
-- **Live Demo**: [GitHub Pages / Netlify link here]  
-- **Screenshots**:  
-  *(Insert PNGs/GIFs of onboarding, dashboard, and reports here)*  
-
----
 
 ## 📂 Installation
 ```bash
