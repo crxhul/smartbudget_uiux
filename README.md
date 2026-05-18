@@ -23,6 +23,11 @@ It provides an intuitive onboarding flow, a clean dashboard, and interactive mod
 
 ---
 
+## 🚀 Demo
+- **Live Demo**: [GitHub Pages / Netlify link here]  
+- **Screenshots**:  
+  *(Insert PNGs/GIFs of onboarding, dashboard, and reports here)*  
+
 ---
 
 ## 📂 Installation
@@ -34,12 +39,15 @@ git clone https://github.com/crxhul/smartbudget_uiux.git
 cd smartbudget_uiux
 
 # Open index.html in browser
+---
 
-
-## License
-MIT
-
-Developed by Rahul  
+## 👨‍💻 Author
+Developed by **Rahul**  
 Frontend Developer | UI/UX Enthusiast  
-[LinkedIn](https://www.linkedin.com/crxhul)
+[LinkedIn Profile](https://www.linkedin.com/in/rahul)
+
+---
+
+## 📜 License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
