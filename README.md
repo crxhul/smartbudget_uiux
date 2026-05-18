@@ -38,3 +38,8 @@ cd smartbudget_uiux
 
 ## License
 MIT
+
+Developed by Rahul  
+Frontend Developer | UI/UX Enthusiast  
+[LinkedIn](https://www.linkedin.com/crxhul)
+
